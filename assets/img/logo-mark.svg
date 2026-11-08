@@ -1,0 +1,12 @@
+<svg viewBox="0 0 230 130" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Vos Cura Logo">
+  <g fill="none" stroke="#8a5a9b" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Herzschlag-Puls -->
+    <path d="M20,65 H72 L82,65 L92,28 L104,104 L115,52 L123,65 H131" />
+    <!-- Herz (Strichgrafik) -->
+    <path transform="translate(118,20) scale(0.92)" d="M50,30 C50,14 24,4 11,25 C-1,45 24,66 50,91 C76,66 101,45 89,25 C76,4 50,14 50,30 Z" />
+    <!-- Auslauf-Linie rechts -->
+    <path d="M214,65 H224" />
+  </g>
+  <!-- Startpunkt -->
+  <circle cx="13" cy="65" r="8" fill="#8a5a9b" />
+</svg>

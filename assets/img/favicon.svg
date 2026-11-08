@@ -1,0 +1,8 @@
+<svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Vos Cura">
+  <rect width="120" height="120" rx="26" fill="#1b1842"/>
+  <g fill="none" stroke="#b98ac6" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M18,62 H40 L47,62 L54,38 L63,92 L71,50 L77,62 H86" />
+    <path transform="translate(60,30) scale(0.52)" d="M50,30 C50,14 24,4 11,25 C-1,45 24,66 50,91 C76,66 101,45 89,25 C76,4 50,14 50,30 Z" />
+  </g>
+  <circle cx="14" cy="62" r="6" fill="#b98ac6"/>
+</svg>
