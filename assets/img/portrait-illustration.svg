@@ -1,0 +1,72 @@
+<svg viewBox="0 0 300 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Illustration einer Pflegefachkraft (Platzhalter für echtes Foto)">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#efe3f5"/>
+      <stop offset="1" stop-color="#dfe6ef"/>
+    </linearGradient>
+    <linearGradient id="tunic" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#eaf0f8"/>
+    </linearGradient>
+    <clipPath id="frame"><rect width="300" height="400"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <!-- Hintergrund -->
+    <rect width="300" height="400" fill="url(#bg)"/>
+    <!-- weicher Markenkreis -->
+    <circle cx="150" cy="205" r="128" fill="#e3cdee" opacity="0.65"/>
+    <circle cx="150" cy="205" r="104" fill="#d8bbe6" opacity="0.5"/>
+
+    <!-- dezente Herzschlag-Linie -->
+    <path d="M12 330 H70 l10 0 10 -26 14 54 12 -40 9 12 H300" fill="none" stroke="#8a5a9b" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.35"/>
+
+    <!-- Figur -->
+    <g>
+      <!-- Schultern / Kasack -->
+      <path d="M52 400 C56 320 96 288 150 288 C204 288 244 320 248 400 Z" fill="url(#tunic)"/>
+      <!-- Kasack-Schatten -->
+      <path d="M150 288 C204 288 244 320 248 400 L214 400 C210 336 184 306 150 300 Z" fill="#dbe3f0" opacity="0.6"/>
+      <!-- V-Ausschnitt / Kragen -->
+      <path d="M150 300 L126 352 L150 338 L174 352 Z" fill="#272260"/>
+      <path d="M150 300 L132 300 L150 346 L168 300 Z" fill="#e8b89a"/>
+      <!-- Namensschild + Herzschlag-Pin -->
+      <rect x="186" y="330" width="34" height="12" rx="3" fill="#8a5a9b"/>
+      <path d="M190 336 h6 l2 -4 3 8 2 -4 h7" fill="none" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+      <!-- Hals -->
+      <rect x="133" y="238" width="34" height="46" rx="16" fill="#e2ae8f"/>
+      <!-- Hals-Schatten -->
+      <path d="M133 254 q17 22 34 0 V248 q-17 16 -34 0 Z" fill="#d49e7f" opacity="0.6"/>
+
+      <!-- Kopf -->
+      <ellipse cx="150" cy="196" rx="62" ry="68" fill="#e8b89a"/>
+      <!-- Ohren -->
+      <circle cx="90" cy="200" r="10" fill="#e8b89a"/>
+      <circle cx="210" cy="200" r="10" fill="#e8b89a"/>
+
+      <!-- Haare hinten (Dutt) -->
+      <circle cx="150" cy="118" r="30" fill="#3a2e4a"/>
+      <!-- Haare oben/seitlich -->
+      <path d="M88 198 C80 150 104 112 150 110 C196 112 220 150 212 198 C210 178 200 160 188 152 C176 176 124 176 112 152 C100 160 90 178 88 198 Z" fill="#3a2e4a"/>
+      <path d="M88 198 C86 178 90 164 96 154 L104 206 Z" fill="#3a2e4a"/>
+      <path d="M212 198 C214 178 210 164 204 154 L196 206 Z" fill="#3a2e4a"/>
+
+      <!-- Augenbrauen -->
+      <path d="M118 182 q12 -8 24 0" fill="none" stroke="#5a4a3a" stroke-width="3.2" stroke-linecap="round"/>
+      <path d="M158 182 q12 -8 24 0" fill="none" stroke="#5a4a3a" stroke-width="3.2" stroke-linecap="round"/>
+      <!-- Augen -->
+      <circle cx="130" cy="196" r="4.6" fill="#3a2e4a"/>
+      <circle cx="170" cy="196" r="4.6" fill="#3a2e4a"/>
+      <circle cx="131.6" cy="194.4" r="1.4" fill="#fff"/>
+      <circle cx="171.6" cy="194.4" r="1.4" fill="#fff"/>
+      <!-- Wangen -->
+      <circle cx="118" cy="214" r="8" fill="#e3a39b" opacity="0.55"/>
+      <circle cx="182" cy="214" r="8" fill="#e3a39b" opacity="0.55"/>
+      <!-- Nase -->
+      <path d="M150 202 q-4 10 -2 14 q2 3 6 2" fill="none" stroke="#d49e7f" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- Lächeln -->
+      <path d="M134 226 q16 14 32 0" fill="none" stroke="#b96a67" stroke-width="3.4" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>
